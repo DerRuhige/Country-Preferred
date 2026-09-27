@@ -1,0 +1,224 @@
+{
+  "extName": {
+    "message": "Country Preferred"
+  },
+  "extDescription": {
+    "message": "Moves your preferred country to the top of any country dropdown, automatically."
+  },
+  "active": {
+    "message": "Active"
+  },
+  "inactive": {
+    "message": "Inactive"
+  },
+  "toggleTitle": {
+    "message": "Enable / disable"
+  },
+  "noCountries": {
+    "message": "No country set — open settings."
+  },
+  "settingsBtn": {
+    "message": "Settings ↗"
+  },
+  "optionsTitle": {
+    "message": "Country Preferred – Settings"
+  },
+  "preferredTitle": {
+    "message": "Preferred countries"
+  },
+  "preferredDesc": {
+    "message": "These countries appear at the very top of dropdowns. Drag to change the order."
+  },
+  "searchPlaceholder": {
+    "message": "Search country — AT, Austria, Österreich …"
+  },
+  "searchLabel": {
+    "message": "Search country"
+  },
+  "suggestionsLabel": {
+    "message": "Country suggestions"
+  },
+  "emptyPreferred": {
+    "message": "No country added yet — use the search field above."
+  },
+  "blacklistTitle": {
+    "message": "Excluded sites"
+  },
+  "blacklistDesc": {
+    "message": "The extension stays inactive on these domains. Wildcard <code>*</code> allowed."
+  },
+  "addDomain": {
+    "message": "Add domain"
+  },
+  "enterDomain": {
+    "message": "Enter domain"
+  },
+  "add": {
+    "message": "Add"
+  },
+  "cancel": {
+    "message": "Cancel"
+  },
+  "blacklistEmpty": {
+    "message": "No exceptions configured."
+  },
+  "backupTitle": {
+    "message": "Backup"
+  },
+  "backupDesc": {
+    "message": "Export your settings or restore them from a backup file."
+  },
+  "export": {
+    "message": "Export"
+  },
+  "import": {
+    "message": "Import"
+  },
+  "aboutTitle": {
+    "message": "About this extension"
+  },
+  "aboutIntro": {
+    "message": "Country Preferred automatically moves your preferred country to the top of country dropdowns on every website — native HTML selects and custom dropdowns alike."
+  },
+  "featuresTitle": {
+    "message": "Features"
+  },
+  "feat1": {
+    "message": "249 countries with ISO-2/ISO-3 codes and names in many languages"
+  },
+  "feat2": {
+    "message": "Detects native <code>&lt;select&gt;</code> elements as well as Select2 and Choices.js"
+  },
+  "feat3": {
+    "message": "True reordering for React-Select &amp; other custom dropdowns"
+  },
+  "feat4": {
+    "message": "Visual separator between preferred countries and the rest of the list"
+  },
+  "feat5": {
+    "message": "MutationObserver for dynamically loaded forms and single-page apps"
+  },
+  "feat6": {
+    "message": "Up to 5 preferred countries in priority order, sortable by drag and drop"
+  },
+  "feat7": {
+    "message": "Blacklist for individual websites, import/export of settings"
+  },
+  "feat8": {
+    "message": "No cloud connection, no telemetry — everything stays local"
+  },
+  "compatTitle": {
+    "message": "Compatibility"
+  },
+  "compatSupported": {
+    "message": "Supported"
+  },
+  "compatFirefox": {
+    "message": "Not supported yet"
+  },
+  "compatSafari": {
+    "message": "Via Xcode conversion"
+  },
+  "changelogTitle": {
+    "message": "Changelog"
+  },
+  "cl130": {
+    "message": "Multilingual interface with automatic language detection, recognizes country dropdowns in many languages"
+  },
+  "cl120": {
+    "message": "True reordering for custom dropdowns, visual separator, new icons, privacy policy added"
+  },
+  "cl111": {
+    "message": "More accessible interface with system font and higher contrast"
+  },
+  "cl110": {
+    "message": "Redesigned settings page and popup"
+  },
+  "cl100": {
+    "message": "Initial release"
+  },
+  "privacyTitle": {
+    "message": "Privacy policy"
+  },
+  "privacyDate": {
+    "message": "Last updated: September 27, 2026"
+  },
+  "privSummaryTitle": {
+    "message": "Summary"
+  },
+  "privSummary": {
+    "message": "Country Preferred does not collect, store or transmit any personal data. The extension works entirely locally in your browser."
+  },
+  "privStoredTitle": {
+    "message": "What data is stored?"
+  },
+  "privStoredIntro": {
+    "message": "Only the following is stored via the browser's <code>chrome.storage.sync</code> API:"
+  },
+  "privStored1": {
+    "message": "your chosen preferred countries (ISO-2 codes)"
+  },
+  "privStored2": {
+    "message": "the active/inactive state of the extension"
+  },
+  "privStored3": {
+    "message": "the list of excluded websites (blacklist)"
+  },
+  "privSync": {
+    "message": "This data stays within your browser profile. If your browser account sync is enabled, the browser itself syncs these settings between your devices — a browser feature, not one of the extension."
+  },
+  "privNotTitle": {
+    "message": "What the extension does not do"
+  },
+  "privNot1": {
+    "message": "Does not send data to external servers"
+  },
+  "privNot2": {
+    "message": "Does not use analytics or tracking services"
+  },
+  "privNot3": {
+    "message": "Does not read form input, passwords or personal information"
+  },
+  "privNot4": {
+    "message": "Does not build usage profiles or collect telemetry"
+  },
+  "privNot5": {
+    "message": "Only changes the display order of dropdowns — you still make the choice"
+  },
+  "privPermsTitle": {
+    "message": "Requested permissions"
+  },
+  "privPermStorage": {
+    "message": "Stores your settings locally in the browser"
+  },
+  "privPermUrls": {
+    "message": "Detects country dropdowns on every website"
+  },
+  "privPermNote": {
+    "message": "The host permission is used solely to detect and reorder dropdown elements in the page DOM. No page content is read, stored or forwarded."
+  },
+  "privOssTitle": {
+    "message": "Open source"
+  },
+  "privOss": {
+    "message": "The full source code of the extension is available — anyone can verify that these principles are followed."
+  },
+  "save": {
+    "message": "Save settings"
+  },
+  "saved": {
+    "message": "✓ Saved"
+  },
+  "alreadyInList": {
+    "message": "Already in the list"
+  },
+  "maxCountries": {
+    "message": "Maximum $1 countries"
+  },
+  "remove": {
+    "message": "Remove $1"
+  },
+  "importFailed": {
+    "message": "Import failed: invalid JSON."
+  }
+}

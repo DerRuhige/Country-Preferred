@@ -1,0 +1,224 @@
+{
+  "extName": {
+    "message": "Country Preferred"
+  },
+  "extDescription": {
+    "message": "Move automaticamente seu país preferido para o topo de qualquer lista suspensa de países."
+  },
+  "active": {
+    "message": "Ativo"
+  },
+  "inactive": {
+    "message": "Inativo"
+  },
+  "toggleTitle": {
+    "message": "Ativar / desativar"
+  },
+  "noCountries": {
+    "message": "Nenhum país definido — abra as configurações."
+  },
+  "settingsBtn": {
+    "message": "Configurações ↗"
+  },
+  "optionsTitle": {
+    "message": "Country Preferred – Configurações"
+  },
+  "preferredTitle": {
+    "message": "Países preferidos"
+  },
+  "preferredDesc": {
+    "message": "Esses países aparecem no topo das listas suspensas. Arraste para mudar a ordem."
+  },
+  "searchPlaceholder": {
+    "message": "Buscar país — BR, Brasil, Brazil …"
+  },
+  "searchLabel": {
+    "message": "Buscar país"
+  },
+  "suggestionsLabel": {
+    "message": "Sugestões de países"
+  },
+  "emptyPreferred": {
+    "message": "Nenhum país adicionado ainda — use o campo de busca acima."
+  },
+  "blacklistTitle": {
+    "message": "Sites excluídos"
+  },
+  "blacklistDesc": {
+    "message": "A extensão fica inativa nesses domínios. Curinga <code>*</code> permitido."
+  },
+  "addDomain": {
+    "message": "Adicionar domínio"
+  },
+  "enterDomain": {
+    "message": "Digite o domínio"
+  },
+  "add": {
+    "message": "Adicionar"
+  },
+  "cancel": {
+    "message": "Cancelar"
+  },
+  "blacklistEmpty": {
+    "message": "Nenhuma exceção configurada."
+  },
+  "backupTitle": {
+    "message": "Backup"
+  },
+  "backupDesc": {
+    "message": "Exporte suas configurações ou restaure-as de um arquivo de backup."
+  },
+  "export": {
+    "message": "Exportar"
+  },
+  "import": {
+    "message": "Importar"
+  },
+  "aboutTitle": {
+    "message": "Sobre esta extensão"
+  },
+  "aboutIntro": {
+    "message": "Country Preferred move automaticamente seu país preferido para o topo das listas de países em qualquer site — seja um select HTML nativo ou uma lista personalizada."
+  },
+  "featuresTitle": {
+    "message": "Recursos"
+  },
+  "feat1": {
+    "message": "249 países com códigos ISO-2/ISO-3 e nomes em vários idiomas"
+  },
+  "feat2": {
+    "message": "Detecta elementos <code>&lt;select&gt;</code> nativos, além de Select2 e Choices.js"
+  },
+  "feat3": {
+    "message": "Reordenação real em React-Select &amp; outras listas personalizadas"
+  },
+  "feat4": {
+    "message": "Separador visual entre os países preferidos e o resto da lista"
+  },
+  "feat5": {
+    "message": "MutationObserver para formulários carregados dinamicamente e aplicativos de página única"
+  },
+  "feat6": {
+    "message": "Até 5 países preferidos em ordem de prioridade, ordenáveis arrastando"
+  },
+  "feat7": {
+    "message": "Lista negra para sites específicos, importação/exportação das configurações"
+  },
+  "feat8": {
+    "message": "Sem nuvem, sem telemetria — tudo fica local"
+  },
+  "compatTitle": {
+    "message": "Compatibilidade"
+  },
+  "compatSupported": {
+    "message": "Compatível"
+  },
+  "compatFirefox": {
+    "message": "Ainda não compatível"
+  },
+  "compatSafari": {
+    "message": "Via conversão no Xcode"
+  },
+  "changelogTitle": {
+    "message": "Histórico de alterações"
+  },
+  "cl130": {
+    "message": "Interface multilíngue com detecção automática de idioma, reconhece listas de países em vários idiomas"
+  },
+  "cl120": {
+    "message": "Reordenação em listas personalizadas, separador visual, novos ícones, política de privacidade adicionada"
+  },
+  "cl111": {
+    "message": "Interface mais acessível com fonte do sistema e maior contraste"
+  },
+  "cl110": {
+    "message": "Novo design da página de configurações e do popup"
+  },
+  "cl100": {
+    "message": "Primeira versão"
+  },
+  "privacyTitle": {
+    "message": "Política de privacidade"
+  },
+  "privacyDate": {
+    "message": "Atualizada em: 27 de setembro de 2026"
+  },
+  "privSummaryTitle": {
+    "message": "Resumo"
+  },
+  "privSummary": {
+    "message": "Country Preferred não coleta, armazena nem transmite dados pessoais. A extensão funciona totalmente de forma local no seu navegador."
+  },
+  "privStoredTitle": {
+    "message": "Quais dados são armazenados?"
+  },
+  "privStoredIntro": {
+    "message": "Somente os seguintes dados são armazenados pela API <code>chrome.storage.sync</code> do navegador:"
+  },
+  "privStored1": {
+    "message": "os países preferidos que você escolheu (códigos ISO-2)"
+  },
+  "privStored2": {
+    "message": "o estado ativo/inativo da extensão"
+  },
+  "privStored3": {
+    "message": "a lista de sites excluídos (lista negra)"
+  },
+  "privSync": {
+    "message": "Esses dados ficam no seu perfil do navegador. Se a sincronização da sua conta estiver ativada, o próprio navegador sincroniza essas configurações entre seus dispositivos — um recurso do navegador, não da extensão."
+  },
+  "privNotTitle": {
+    "message": "O que a extensão não faz"
+  },
+  "privNot1": {
+    "message": "Não envia dados para servidores externos"
+  },
+  "privNot2": {
+    "message": "Não usa serviços de análise ou rastreamento"
+  },
+  "privNot3": {
+    "message": "Não lê dados de formulários, senhas ou informações pessoais"
+  },
+  "privNot4": {
+    "message": "Não cria perfis de uso nem coleta telemetria"
+  },
+  "privNot5": {
+    "message": "Só altera a ordem de exibição das listas — a escolha continua sendo sua"
+  },
+  "privPermsTitle": {
+    "message": "Permissões solicitadas"
+  },
+  "privPermStorage": {
+    "message": "Armazena suas configurações localmente no navegador"
+  },
+  "privPermUrls": {
+    "message": "Detecta listas de países em qualquer site"
+  },
+  "privPermNote": {
+    "message": "A permissão de host é usada apenas para detectar e reordenar listas suspensas no DOM da página. Nenhum conteúdo é lido, armazenado ou encaminhado."
+  },
+  "privOssTitle": {
+    "message": "Código aberto"
+  },
+  "privOss": {
+    "message": "O código-fonte completo da extensão está disponível — qualquer pessoa pode verificar que esses princípios são seguidos."
+  },
+  "save": {
+    "message": "Salvar configurações"
+  },
+  "saved": {
+    "message": "✓ Salvo"
+  },
+  "alreadyInList": {
+    "message": "Já está na lista"
+  },
+  "maxCountries": {
+    "message": "Máximo de $1 países"
+  },
+  "remove": {
+    "message": "Remover $1"
+  },
+  "importFailed": {
+    "message": "Falha na importação: JSON inválido."
+  }
+}
