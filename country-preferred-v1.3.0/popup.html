@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Country Preferred</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="pop">
+
+    <div class="pop-head">
+      <div class="brand">
+        <img src="icons/icon32.png" alt="" class="brand-icon">
+        <span class="brand-name">Country Preferred</span>
+      </div>
+      <label class="toggle" data-i18n-attr="title:toggleTitle">
+        <input type="checkbox" id="popup-enabled">
+        <span class="toggle-track"><span class="toggle-knob"></span></span>
+      </label>
+    </div>
+
+    <div class="pop-body">
+      <p class="no-ctry hidden" id="no-countries" data-i18n="noCountries"></p>
+      <ul class="clist" id="country-chips"></ul>
+    </div>
+
+    <div class="pop-foot">
+      <div class="status" id="status-row">
+        <span class="sdot" id="status-dot"></span>
+        <span class="stxt" id="status-text">—</span>
+      </div>
+      <button class="settings-btn" id="btn-settings" data-i18n="settingsBtn"></button>
+    </div>
+
+  </div>
+  <script src="i18n.js"></script>
+  <script src="data/countries.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>

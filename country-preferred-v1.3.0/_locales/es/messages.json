@@ -1,0 +1,224 @@
+{
+  "extName": {
+    "message": "Country Preferred"
+  },
+  "extDescription": {
+    "message": "Coloca automáticamente tu país preferido al principio de cualquier lista desplegable de países."
+  },
+  "active": {
+    "message": "Activo"
+  },
+  "inactive": {
+    "message": "Inactivo"
+  },
+  "toggleTitle": {
+    "message": "Activar / desactivar"
+  },
+  "noCountries": {
+    "message": "Ningún país configurado — abre los ajustes."
+  },
+  "settingsBtn": {
+    "message": "Ajustes ↗"
+  },
+  "optionsTitle": {
+    "message": "Country Preferred – Ajustes"
+  },
+  "preferredTitle": {
+    "message": "Países preferidos"
+  },
+  "preferredDesc": {
+    "message": "Estos países aparecen al principio de las listas desplegables. Arrastra para cambiar el orden."
+  },
+  "searchPlaceholder": {
+    "message": "Buscar país — ES, España, Spain …"
+  },
+  "searchLabel": {
+    "message": "Buscar país"
+  },
+  "suggestionsLabel": {
+    "message": "Sugerencias de países"
+  },
+  "emptyPreferred": {
+    "message": "Aún no has añadido ningún país — usa el campo de búsqueda de arriba."
+  },
+  "blacklistTitle": {
+    "message": "Sitios excluidos"
+  },
+  "blacklistDesc": {
+    "message": "La extensión permanece inactiva en estos dominios. Se permite el comodín <code>*</code>."
+  },
+  "addDomain": {
+    "message": "Añadir dominio"
+  },
+  "enterDomain": {
+    "message": "Introduce un dominio"
+  },
+  "add": {
+    "message": "Añadir"
+  },
+  "cancel": {
+    "message": "Cancelar"
+  },
+  "blacklistEmpty": {
+    "message": "No hay excepciones configuradas."
+  },
+  "backupTitle": {
+    "message": "Copia de seguridad"
+  },
+  "backupDesc": {
+    "message": "Exporta tus ajustes o restáuralos desde un archivo de copia de seguridad."
+  },
+  "export": {
+    "message": "Exportar"
+  },
+  "import": {
+    "message": "Importar"
+  },
+  "aboutTitle": {
+    "message": "Acerca de esta extensión"
+  },
+  "aboutIntro": {
+    "message": "Country Preferred coloca automáticamente tu país preferido al principio de las listas de países en cualquier sitio web — tanto selectores HTML nativos como listas personalizadas."
+  },
+  "featuresTitle": {
+    "message": "Funciones"
+  },
+  "feat1": {
+    "message": "249 países con códigos ISO-2/ISO-3 y nombres en muchos idiomas"
+  },
+  "feat2": {
+    "message": "Detecta elementos <code>&lt;select&gt;</code> nativos, así como Select2 y Choices.js"
+  },
+  "feat3": {
+    "message": "Reordenación real en React-Select &amp; otras listas personalizadas"
+  },
+  "feat4": {
+    "message": "Separador visual entre los países preferidos y el resto de la lista"
+  },
+  "feat5": {
+    "message": "MutationObserver para formularios cargados dinámicamente y aplicaciones de una sola página"
+  },
+  "feat6": {
+    "message": "Hasta 5 países preferidos por orden de prioridad, ordenables arrastrando"
+  },
+  "feat7": {
+    "message": "Lista negra para sitios concretos, importación/exportación de ajustes"
+  },
+  "feat8": {
+    "message": "Sin conexión a la nube, sin telemetría — todo se queda en local"
+  },
+  "compatTitle": {
+    "message": "Compatibilidad"
+  },
+  "compatSupported": {
+    "message": "Compatible"
+  },
+  "compatFirefox": {
+    "message": "Aún no compatible"
+  },
+  "compatSafari": {
+    "message": "Mediante conversión con Xcode"
+  },
+  "changelogTitle": {
+    "message": "Historial de cambios"
+  },
+  "cl130": {
+    "message": "Interfaz multilingüe con detección automática del idioma, reconoce listas de países en muchos idiomas"
+  },
+  "cl120": {
+    "message": "Reordenación en listas personalizadas, separador visual, nuevos iconos, política de privacidad añadida"
+  },
+  "cl111": {
+    "message": "Interfaz más accesible con fuente del sistema y mayor contraste"
+  },
+  "cl110": {
+    "message": "Rediseño de la página de ajustes y del popup"
+  },
+  "cl100": {
+    "message": "Primera versión"
+  },
+  "privacyTitle": {
+    "message": "Política de privacidad"
+  },
+  "privacyDate": {
+    "message": "Última actualización: 27 de septiembre de 2026"
+  },
+  "privSummaryTitle": {
+    "message": "Resumen"
+  },
+  "privSummary": {
+    "message": "Country Preferred no recopila, almacena ni transmite datos personales. La extensión funciona completamente en local en tu navegador."
+  },
+  "privStoredTitle": {
+    "message": "¿Qué datos se almacenan?"
+  },
+  "privStoredIntro": {
+    "message": "A través de la API <code>chrome.storage.sync</code> del navegador solo se almacena:"
+  },
+  "privStored1": {
+    "message": "los países preferidos que has elegido (códigos ISO-2)"
+  },
+  "privStored2": {
+    "message": "el estado activo/inactivo de la extensión"
+  },
+  "privStored3": {
+    "message": "la lista de sitios excluidos (lista negra)"
+  },
+  "privSync": {
+    "message": "Estos datos permanecen en tu perfil del navegador. Si tienes activada la sincronización de tu cuenta, es el propio navegador quien sincroniza estos ajustes entre tus dispositivos — una función del navegador, no de la extensión."
+  },
+  "privNotTitle": {
+    "message": "Lo que la extensión no hace"
+  },
+  "privNot1": {
+    "message": "No envía datos a servidores externos"
+  },
+  "privNot2": {
+    "message": "No utiliza servicios de análisis ni de seguimiento"
+  },
+  "privNot3": {
+    "message": "No lee datos de formularios, contraseñas ni información personal"
+  },
+  "privNot4": {
+    "message": "No crea perfiles de uso ni recopila telemetría"
+  },
+  "privNot5": {
+    "message": "Solo cambia el orden de visualización de las listas — la elección sigue siendo tuya"
+  },
+  "privPermsTitle": {
+    "message": "Permisos solicitados"
+  },
+  "privPermStorage": {
+    "message": "Guarda tus ajustes localmente en el navegador"
+  },
+  "privPermUrls": {
+    "message": "Detecta listas de países en cualquier sitio web"
+  },
+  "privPermNote": {
+    "message": "El permiso de host se usa únicamente para detectar y reordenar listas desplegables en el DOM de la página. No se lee, almacena ni reenvía ningún contenido."
+  },
+  "privOssTitle": {
+    "message": "Código abierto"
+  },
+  "privOss": {
+    "message": "El código fuente completo de la extensión está disponible — cualquiera puede comprobar que se cumplen estos principios."
+  },
+  "save": {
+    "message": "Guardar ajustes"
+  },
+  "saved": {
+    "message": "✓ Guardado"
+  },
+  "alreadyInList": {
+    "message": "Ya está en la lista"
+  },
+  "maxCountries": {
+    "message": "Máximo $1 países"
+  },
+  "remove": {
+    "message": "Quitar $1"
+  },
+  "importFailed": {
+    "message": "Error al importar: JSON no válido."
+  }
+}

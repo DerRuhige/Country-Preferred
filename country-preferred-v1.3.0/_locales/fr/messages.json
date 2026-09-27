@@ -1,0 +1,224 @@
+{
+  "extName": {
+    "message": "Country Preferred"
+  },
+  "extDescription": {
+    "message": "Place automatiquement votre pays préféré en tête de chaque liste déroulante de pays."
+  },
+  "active": {
+    "message": "Actif"
+  },
+  "inactive": {
+    "message": "Inactif"
+  },
+  "toggleTitle": {
+    "message": "Activer / désactiver"
+  },
+  "noCountries": {
+    "message": "Aucun pays défini — ouvrez les paramètres."
+  },
+  "settingsBtn": {
+    "message": "Paramètres ↗"
+  },
+  "optionsTitle": {
+    "message": "Country Preferred – Paramètres"
+  },
+  "preferredTitle": {
+    "message": "Pays préférés"
+  },
+  "preferredDesc": {
+    "message": "Ces pays apparaissent tout en haut des listes déroulantes. Faites glisser pour changer l'ordre."
+  },
+  "searchPlaceholder": {
+    "message": "Rechercher un pays — FR, France, Frankreich …"
+  },
+  "searchLabel": {
+    "message": "Rechercher un pays"
+  },
+  "suggestionsLabel": {
+    "message": "Suggestions de pays"
+  },
+  "emptyPreferred": {
+    "message": "Aucun pays ajouté — utilisez le champ de recherche ci-dessus."
+  },
+  "blacklistTitle": {
+    "message": "Sites exclus"
+  },
+  "blacklistDesc": {
+    "message": "L'extension reste inactive sur ces domaines. Joker <code>*</code> autorisé."
+  },
+  "addDomain": {
+    "message": "Ajouter un domaine"
+  },
+  "enterDomain": {
+    "message": "Saisir un domaine"
+  },
+  "add": {
+    "message": "Ajouter"
+  },
+  "cancel": {
+    "message": "Annuler"
+  },
+  "blacklistEmpty": {
+    "message": "Aucune exception configurée."
+  },
+  "backupTitle": {
+    "message": "Sauvegarde"
+  },
+  "backupDesc": {
+    "message": "Exportez vos paramètres ou restaurez-les à partir d'un fichier de sauvegarde."
+  },
+  "export": {
+    "message": "Exporter"
+  },
+  "import": {
+    "message": "Importer"
+  },
+  "aboutTitle": {
+    "message": "À propos de cette extension"
+  },
+  "aboutIntro": {
+    "message": "Country Preferred place automatiquement votre pays préféré en tête des listes déroulantes de pays sur tous les sites — sélecteurs HTML natifs comme listes personnalisées."
+  },
+  "featuresTitle": {
+    "message": "Fonctionnalités"
+  },
+  "feat1": {
+    "message": "249 pays avec codes ISO-2/ISO-3 et noms dans de nombreuses langues"
+  },
+  "feat2": {
+    "message": "Détecte les éléments <code>&lt;select&gt;</code> natifs ainsi que Select2 et Choices.js"
+  },
+  "feat3": {
+    "message": "Véritable réorganisation pour React-Select &amp; autres listes personnalisées"
+  },
+  "feat4": {
+    "message": "Séparateur visuel entre les pays préférés et le reste de la liste"
+  },
+  "feat5": {
+    "message": "MutationObserver pour les formulaires chargés dynamiquement et les applications monopage"
+  },
+  "feat6": {
+    "message": "Jusqu'à 5 pays préférés par ordre de priorité, triables par glisser-déposer"
+  },
+  "feat7": {
+    "message": "Liste noire pour certains sites, import/export des paramètres"
+  },
+  "feat8": {
+    "message": "Aucune connexion cloud, aucune télémétrie — tout reste local"
+  },
+  "compatTitle": {
+    "message": "Compatibilité"
+  },
+  "compatSupported": {
+    "message": "Pris en charge"
+  },
+  "compatFirefox": {
+    "message": "Pas encore pris en charge"
+  },
+  "compatSafari": {
+    "message": "Via conversion Xcode"
+  },
+  "changelogTitle": {
+    "message": "Historique des versions"
+  },
+  "cl130": {
+    "message": "Interface multilingue avec détection automatique de la langue, reconnaît les listes de pays dans de nombreuses langues"
+  },
+  "cl120": {
+    "message": "Réorganisation des listes personnalisées, séparateur visuel, nouvelles icônes, politique de confidentialité ajoutée"
+  },
+  "cl111": {
+    "message": "Interface plus accessible avec police système et contraste renforcé"
+  },
+  "cl110": {
+    "message": "Refonte de la page des paramètres et du popup"
+  },
+  "cl100": {
+    "message": "Première version"
+  },
+  "privacyTitle": {
+    "message": "Politique de confidentialité"
+  },
+  "privacyDate": {
+    "message": "Mise à jour : 27 septembre 2026"
+  },
+  "privSummaryTitle": {
+    "message": "En bref"
+  },
+  "privSummary": {
+    "message": "Country Preferred ne collecte, ne stocke ni ne transmet aucune donnée personnelle. L'extension fonctionne entièrement en local dans votre navigateur."
+  },
+  "privStoredTitle": {
+    "message": "Quelles données sont stockées ?"
+  },
+  "privStoredIntro": {
+    "message": "Seules les données suivantes sont stockées via l'API <code>chrome.storage.sync</code> du navigateur :"
+  },
+  "privStored1": {
+    "message": "les pays préférés que vous avez choisis (codes ISO-2)"
+  },
+  "privStored2": {
+    "message": "l'état actif/inactif de l'extension"
+  },
+  "privStored3": {
+    "message": "la liste des sites exclus (liste noire)"
+  },
+  "privSync": {
+    "message": "Ces données restent dans votre profil de navigateur. Si la synchronisation de votre compte est activée, c'est le navigateur lui-même qui synchronise ces paramètres entre vos appareils — une fonction du navigateur, pas de l'extension."
+  },
+  "privNotTitle": {
+    "message": "Ce que l'extension ne fait pas"
+  },
+  "privNot1": {
+    "message": "N'envoie aucune donnée à des serveurs externes"
+  },
+  "privNot2": {
+    "message": "N'utilise aucun service d'analyse ou de suivi"
+  },
+  "privNot3": {
+    "message": "Ne lit pas les saisies de formulaire, mots de passe ou informations personnelles"
+  },
+  "privNot4": {
+    "message": "Ne crée aucun profil d'utilisation et ne collecte aucune télémétrie"
+  },
+  "privNot5": {
+    "message": "Modifie uniquement l'ordre d'affichage des listes — le choix reste le vôtre"
+  },
+  "privPermsTitle": {
+    "message": "Autorisations demandées"
+  },
+  "privPermStorage": {
+    "message": "Stocke vos paramètres localement dans le navigateur"
+  },
+  "privPermUrls": {
+    "message": "Détecte les listes de pays sur chaque site"
+  },
+  "privPermNote": {
+    "message": "L'autorisation d'hôte sert uniquement à détecter et réorganiser les listes déroulantes dans le DOM de la page. Aucun contenu n'est lu, stocké ou transmis."
+  },
+  "privOssTitle": {
+    "message": "Open source"
+  },
+  "privOss": {
+    "message": "Le code source complet de l'extension est consultable — chacun peut vérifier que ces principes sont respectés."
+  },
+  "save": {
+    "message": "Enregistrer les paramètres"
+  },
+  "saved": {
+    "message": "✓ Enregistré"
+  },
+  "alreadyInList": {
+    "message": "Déjà dans la liste"
+  },
+  "maxCountries": {
+    "message": "$1 pays maximum"
+  },
+  "remove": {
+    "message": "Retirer $1"
+  },
+  "importFailed": {
+    "message": "Échec de l'import : JSON invalide."
+  }
+}
